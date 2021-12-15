@@ -1,1 +1,1 @@
-alias micro-frontend='tmuxinator start micro-frontend'
+alias micro-frontends='tmuxinator start micro-frontends'

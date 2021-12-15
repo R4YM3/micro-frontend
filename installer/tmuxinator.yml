@@ -1,5 +1,5 @@
-name: micro-frontend
-root: ~/Development/hetwebbureau/micro-frontend
+name: micro-frontends
+root: ~/Development/hetwebbureau/micro-frontends
 
 # Optional tmux socket
 # socket_name: foo

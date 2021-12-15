@@ -16,13 +16,13 @@ function print_main_menu {
 }
 
 function install {
-  cp ./aliases.sh ~/.config/aliases/micro-frontend.sh
-  cp ./tmuxinator.yml ~/.config/tmuxinator/micro-frontend.yml
+  cp ./aliases.sh ~/.config/aliases/micro-frontends.sh
+  cp ./tmuxinator.yml ~/.config/tmuxinator/micro-frontends.yml
 }
 
 function uninstall {
-  rm -rf ~/.config/aliases/micro-frontend.sh  
-  rm -rf ~/.config/tmuxinator/micro-frontend.yml
+  rm -rf ~/.config/aliases/micro-frontends.sh  
+  rm -rf ~/.config/tmuxinator/micro-frontends.yml
 }
 
 print_main_menu 
