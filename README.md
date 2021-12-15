@@ -1,1 +1,1 @@
-# micro-frontend
+# micro-frontends
