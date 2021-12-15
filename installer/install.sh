@@ -16,13 +16,13 @@ function print_main_menu {
 }
 
 function install {
-  cp ./aliases.sh ~/.config/aliases/micro-frontends.sh
-  cp ./tmuxinator.yml ~/.config/tmuxinator/micro-frontends.yml
+  cp ./aliases.sh ~/.config/aliases/module-federation-nextjs.sh
+  cp ./tmuxinator.yml ~/.config/tmuxinator/module-federation-nextjs.yml
 }
 
 function uninstall {
-  rm -rf ~/.config/aliases/micro-frontends.sh  
-  rm -rf ~/.config/tmuxinator/micro-frontends.yml
+  rm -rf ~/.config/aliases/module-federation-nextjs.sh  
+  rm -rf ~/.config/tmuxinator/module-federation-nextjs.yml
 }
 
 print_main_menu 

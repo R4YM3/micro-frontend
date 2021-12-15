@@ -1,5 +1,5 @@
-name: micro-frontends
-root: ~/Development/hetwebbureau/micro-frontends
+name: module-federation-nextjs
+root: ~/Development/hetwebbureau/module-federation-nextjs
 
 # Optional tmux socket
 # socket_name: foo

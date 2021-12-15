@@ -1,1 +1,1 @@
-alias micro-frontends='tmuxinator start micro-frontends'
+alias module-federation-nextjs='tmuxinator start module-federation-nextjs'
