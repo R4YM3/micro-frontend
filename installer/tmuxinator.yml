@@ -16,7 +16,41 @@ root: ~/Development/hetwebbureau/module-federation-nextjs
 # Change the command to call tmux.  This can be used by derivatives/wrappers like byobu.
 
 windows:
-  - Editor:
+  - App:
+      pre: cd ~/Development/hetwebbureau/module-federation-nextjs/app
+      layout: main-vertical
+      panes:
+        - left:
+            - vim
+        - right:
+            - git status
+            - clear
+            - clear
+
+  - Catalog:
+      pre: cd ~/Development/hetwebbureau/module-federation-nextjs/catalog
+      layout: main-vertical
+      panes:
+        - left:
+            - vim
+        - right:
+            - git status
+            - clear
+            - clear
+
+  - Charts:
+      pre: cd ~/Development/hetwebbureau/module-federation-nextjs/charts
+      layout: main-vertical
+      panes:
+        - left:
+            - vim
+        - right:
+            - git status
+            - clear
+            - clear
+
+  - Components:
+      pre: cd ~/Development/hetwebbureau/module-federation-nextjs/components
       layout: main-vertical
       panes:
         - left:
