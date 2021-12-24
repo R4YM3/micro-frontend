@@ -1,4 +1,5 @@
 # module-federation-nextjs
 
 ## installer
-Install shell aliases and tmuxinator project via `./installer/install.sh`
+To install shell aliases and tmuxinator project run
+`cd ./installer && install.sh`
